@@ -8,7 +8,7 @@ body /*Применяются стили для всех тегов внутри
 {
 	margin: 0px;
 	padding: 0px;
-	background:#FFFFFF;
+	background: #000000;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
@@ -227,7 +227,7 @@ ul.style3 .icon
 /*Стили для шапки, где напсианы Главное меню, Контаткты и лого*/	
 #header-wrapper
 {
-	background: #FFFFFF; /*Здесь можно поменять цвет шапки*/
+	background: #696969; /*Здесь можно поменять цвет шапки*/
 }
 
 
@@ -254,7 +254,7 @@ ul.style3 .icon
 	font-size: 2.5em;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #4B0082;
+	color: #ED7070;
 	padding-right: 0.50em;
 	border-right: 1px solid rgba(0,0,0,.1);
 }
@@ -271,7 +271,7 @@ ul.style3 .icon
 #logo a
 {
 	text-decoration: none;
-	color: #4B0082;
+	color: #FFF;
 }
 
 
@@ -310,7 +310,7 @@ ul.style3 .icon
 	font-size: 1em;
 	text-transform: uppercase;
 	outline: 0;
-	color: #4B0082;
+	color: #FFFFFF;
 }
 
 #menu li:hover a, #menu li.active a, #menu li.active span
@@ -319,7 +319,7 @@ ul.style3 .icon
 
 #menu .current_page_item a
 {
-	color: #4B0082; /*Цвет пунктов меню*/
+	color: #FFFFFF; /*Цвет пунктов меню*/
 }
 
 /*********************************************************************************/
@@ -331,7 +331,7 @@ ul.style3 .icon
 #header-featured
 {
 	padding: 10em 0em;
-	background-image: url(images/1234.jpg); /*Здесь можно поменять картинку для баннера*/
+	background-image: url(images/SPORT.jpg); /*Здесь можно поменять картинку для баннера*/
 	background-position: center; /*Позиция картинки*/
 	background-size: cover;
 	
@@ -343,9 +343,9 @@ ul.style3 .icon
 	overflow: hidden;
 	height:500px;
 	width:1024px;
-	text-align:center; /*Располжеие текста*/
-	color: #4B0082; /*Цвет текста (лучше задавайте так: #FFFFFF)*/
-	font-size: 2.5em; /*Размер текста (лучше задавайте так: 14pt)*/
+	text-align: center; /*Располжеие текста*/
+	color: #32CD32; /*Цвет текста (лучше задавайте так: #FFFFFF)*/
+	font-size: 1.5em; /*Размер текста (лучше задавайте так: 14pt)*/
 }
 
 
@@ -354,7 +354,7 @@ ul.style3 .icon
 	padding-bottom: 0.50em;
 	font-weight: 400;
 	font-size: 2.0em; /*Размер шрифта*/
-	color: #E6E6FA; /*Цвет текста*/
+	color: #FF0000; /*Цвет текста*/
 }
 
 
@@ -363,11 +363,11 @@ ul.style3 .icon
 #mainn{
 	padding-top: 50px; /*Сколько оступ сверху для данного контейнера*/
 	padding: 2em; /*Сколько оступ со всех сторон*/
-	color: #4B0082;
+	color: #32CD32;
 }
 
 p .tex_color{
-	color:#4B0082;  /*Цвет текста*/
+	color:#596672;  /*Цвет текста*/
 }
 
 #mainn_tex{
@@ -375,7 +375,7 @@ p .tex_color{
 }
 
 #mainn_tex h3{
-	color: #4B0082;
+	color: #FF0000;
 }
 
 
@@ -388,24 +388,24 @@ p .tex_color{
 #foodmenu .title{
 	font-family: 'Source Sans Pro', sans-serif; /*Семейство шрифта для текста "Вкусная и свежая еда"*/
 	text-align: center; /*Расположение текста по центру "Вкусная и свежая еда"*/
-	color:#4B0082; /*Цвет текста "Вкусная и свежая еда"*/
+	color:#FF0000; /*Цвет текста "Вкусная и свежая еда"*/
 	font-size: 20pt; /*Размер текста "Вкусная и свежая еда"*/
 }
 #foodmenu .top-menu li{
 	list-style: none;
 	display: inline-block;
-	background: #FFFFFF;
+	background: #1A0D01;
 	position: relative;
 	padding: 5px 10px;
 	border-radius: 8px;
 }
 #foodmenu .top-menu li:hover{
-	background: #E6E6FA;  /*Цвет при наведении на пункт выбора типа*/
+	background: #A36F5C;  /*Цвет при наведении на пункт выбора типа*/
 }
 #foodmenu .top-menu li p{ /*Настройка шрифта в пункте выбора типа*/
 	font-family: 'Segoe UI';  /*Шрифт для текста в пунктах выбора типа*/
 	font-size: 18px; /*Размер шрифта для текста в пунктах выбора типа*/
-	color: #4B0082; /*Цвет шрифта для текста в пунктах выбора типа*/
+	color: #fff; /*Цвет шрифта для текста в пунктах выбора типа*/
 	padding: 5px 7px; /*Отспут вокруг текста*/
 	display: block;
 	cursor: pointer;;
@@ -433,8 +433,8 @@ p .tex_color{
 	height: 450px; /*Длина карточки*/
 	text-align: center; /*Располжеие текста в картчоке*/
 	margin:10px;
-	background: #FFFFFF;  /*Цвет картчоки*/
-	color: #4B0082; /*Цвет текста в карточке*/
+	background: #000080;  /*Цвет картчоки*/
+	color: #FFD700; /*Цвет текста в карточке*/
 	border-bottom: 2px solid #333; /*Рамка снизу для карточки*/
 	border-top: 2px solid #333;/*Рамка сверху для карточки*/
 	font-family: 'Segoe UI'; /*Семейство шрифтов */
@@ -455,7 +455,7 @@ p .tex_color{
 }
 #foodmenu .desc h3{ /*Настройка заголовка в карточке*/
 	margin:10px; 
-	color: #4B0082;
+	color: #FFFFFF;
 }
 #foodmenu .desc p{ /*Настройка текста в карточке*/
 	margin: 10 px;
@@ -477,7 +477,7 @@ p .tex_color{
 	font-size: 14pt;
 }
 #foodmenu .card:hover{
-	background: #E6E6FA; /*Цвет при наведении на карточку*/
+	background: #FF0000; /*Цвет при наведении на карточку*/
 }
 #foodmenu .card:hover .desc2{
 	opacity: 1;
@@ -489,12 +489,12 @@ p .tex_color{
 
 #footer{ 
 	padding-top:40px; /*Отспут сверху*/
-	background:#E6E6FA; /*Цвет подвала*/
+	background:#696969; /*Цвет подвала*/
 	width:100%; /*Ширина подвала*/
-	height:80px; /*Высота подвала*/
+	height:100px; /*Высота подвала*/
 }
 #footer  p{ /*Настройка текста в подвале*/
-	color:#000000; /*Цвет текстта*/
+	color:#FFFFFF; /*Цвет текстта*/
 	font-size: 12px; /*Размер шрифта*/
 }
 
